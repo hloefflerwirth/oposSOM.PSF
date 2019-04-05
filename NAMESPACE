@@ -1,0 +1,9 @@
+exportPattern("^[[:alpha:]]+")
+
+import("oposSOM")
+import("png")
+import("XML")
+import("RCurl")
+
+importFrom("graph", "edgeL", "edgeData", "inEdges", "nodes", "nodeData", "nodeData<-")
+importFrom("igraph", "igraph.from.graphNEL", "V", "V<-", "E", "E<-", "degree")

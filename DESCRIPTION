@@ -1,0 +1,11 @@
+Package: oposSOM.PSF
+Type: Package
+Title: Supplements oposSOM package with a PSF analysis module
+Version: 1.0
+Author: Henry Loeffler-Wirth <wirth@izbi.uni-leipzig.de>
+Maintainer: Henry Loeffler-Wirth <wirth@izbi.uni-leipzig.de>
+Description: This package provides a function to calculate pathway signal flow (PSF) for the samples and groups of an existing oposSOM environment.
+Depends: R (>= 3.0), igraph (>= 1.0.0)
+Suggests: oposSOM
+Imports: graph, XML, png, RCurl
+License: GPL (>=2)
